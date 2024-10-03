@@ -3,7 +3,7 @@
 
 char *getOutputStrOwn()
 {
-  const char *str = "This is from the first shared object.";
+  const char *str = "This is from the first library.";
   // need to malloc our string since it must persist after returning
   char *result = malloc(strlen(str) * sizeof(char));
   strcpy(result, str);
