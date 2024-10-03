@@ -1,7 +1,7 @@
 #include <string.h>
-#include "../lib.h"
+#include <stdlib.h>
 
-char *getOutputStrOwn()
+extern char *getOutputStrOwn()
 {
   const char *str = "This is from the second shared object.";
   // need to malloc our string since it must persist after returning

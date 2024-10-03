@@ -1,5 +1,5 @@
 #include <string.h>
-#include "../lib.h"
+#include <stdlib.h>
 
 char *getOutputStrOwn()
 {
